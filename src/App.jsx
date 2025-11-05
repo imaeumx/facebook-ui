@@ -3,7 +3,7 @@ import axios from 'axios';
 import PostForm from './PostForm';
 import PostList from './PostList';
 
-const API = 'http://localhost:8080/api/posts';
+const API = 'https://facebookapi-libr.onrender.com/api/posts';
 
 function App() {
   const [posts, setPosts] = useState([]);
